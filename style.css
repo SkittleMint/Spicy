@@ -1,0 +1,287 @@
+* {
+    font-family: Arial;
+    font-size: 20px;
+    scroll-behavior: smooth;
+   }
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+  }
+
+body{
+  background-color: #222831;
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: #ECECEC;
+  text-align: center;
+}
+
+
+.centerNws{
+  margin: auto;
+  width: 50%;
+}
+
+#allNws{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.nwBlock{
+  
+  padding: 10px;
+  width:120px;
+  display: flex;
+  flex-flow:column;
+  border-radius: 7px;
+  background-color: #f2a365;
+  margin: 5px;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+
+}
+.nwBlock:hover{
+  display: flex;
+  transform: scale(1.048)  translateZ(0);
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+.lineBreak{
+  width: 100%;
+}
+
+.nwBlockTitle{
+  display: flex;
+  font-size: 30px;
+  width: 100%;
+  height:fit-content;
+}
+
+.nwBlockStats{
+  display: flex;
+  width: 100%;
+  flex-flow:column;
+}
+
+
+
+
+#checkboxes{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  color:#ECECEC;
+}
+[type="checkbox"] {
+
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+#toggleCheckboxesButton{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 5px;text-align: center;
+background-color: #f2a365; 
+border: none;
+color: #111;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+}
+#toggleCheckboxesButton:hover {
+  background-color: #FFD282; 
+  color: #111;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+#wrapperUp{
+  width:100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+#kdChartWrapper{
+  margin: auto;
+  width: 70%;
+}
+
+#tableTitle{
+  color:white;
+}
+
+
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+
+
+
+
+#graphs{
+  display: flex;
+  justify-content: center;
+}
+
+
+.container hr {
+  width: 100%;
+}
+
+
+
+.gridjs-container {
+  width: auto!important; 
+}
+/*
+https://colorhunt.co/palette/179373
+#222831
+#30475e
+#F2A365
+#ECECEC
+*/
+
+
+
+
+
+
+#statTableContainer{
+  width: 25.5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#statTable{
+  margin: auto;
+  width: 100%;
+  color: #ECECEC;
+  border-collapse: collapse;
+  border: 5px solid #f2a365;
+}
+
+#statTable td,th{
+  border: 1px solid #f2a365;
+  padding: 5px 15px;
+}
+
+
+#statTable tr:nth-child(odd) td {
+  background-color: rgb(17,17,17);
+}
+
+
+
+
+#history{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+
+
+.leaderbordSubBoxText{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding-top: 5px;
+  padding-bottom:5px;
+  text-align: center;
+  background-color: #111;
+  border-color: #f2a365;
+  border-width: 5px;
+  border-style: solid;
+  color:white;
+}
+
+
+
+#leaderbordBox{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+
+
+.leaderbordSubBox{
+  display: flex;
+  flex-flow:column;
+  margin: 15px;
+  padding: 10px;
+  width: 40%;
+}
